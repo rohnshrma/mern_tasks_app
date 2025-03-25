@@ -1,0 +1,33 @@
+    •	express → Backend framework
+	•	mongoose → MongoDB ORM
+	•	dotenv → Manage environment variables
+	•	cors → Handle cross-origin requests
+	•	body-parser → Parse JSON
+	•	bcryptjs → Hash passwords
+	•	jsonwebtoken → JWT-based authentication
+	•	cookie-parser → Handle cookies
+	•	nodemailer → Send email reminders
+	•	node-cron → Schedule recurring tasks
+
+
+
+    mern-todo-backend/
+│── node_modules/
+│── config/
+│   ├── db.js               # Database connection
+│── controllers/
+│   ├── taskController.js   # Task CRUD operations
+│   ├── userController.js   # User authentication
+│── models/
+│   ├── Task.js             # Task model
+│   ├── User.js             # User model
+│── routes/
+│   ├── taskRoutes.js       # Task routes
+│   ├── userRoutes.js       # User routes
+│── middleware/
+│   ├── authMiddleware.js   # JWT authentication
+│── utils/
+│   ├── reminderJob.js      # Task reminder system
+│── .env                    # Environment variables
+│── server.js               # Main server file
+│── package.json            # Project dependencies
