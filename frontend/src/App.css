@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.createarea {
+  width: 40%;
+  padding: 2rem;
+  margin: 4rem auto;
+  background-color: #fff;
+}
+
+.createarea input {
+  width: 200%;
+}
